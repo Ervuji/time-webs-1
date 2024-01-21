@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/806977ead2d9c664.css","style",{"crossOrigin":""}]
-0:["VBPVorMXHRQnpTYdNs28u",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/806977ead2d9c664.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["WTb-f0Wp4lfdsSRM_XC_J",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/806977ead2d9c664.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I{"id":1443,"chunks":["272:static/chunks/webpack-ccbb72bbbd2d885d.js","971:static/chunks/fd9d1056-68adf00e9db859ca.js","864:static/chunks/864-b31496625293226c.js"],"name":"","async":false}
 5:I{"id":8639,"chunks":["272:static/chunks/webpack-ccbb72bbbd2d885d.js","971:static/chunks/fd9d1056-68adf00e9db859ca.js","864:static/chunks/864-b31496625293226c.js"],"name":"","async":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"TimeWebs"}],["$","meta","2",{"name":"description","content":"TimeWebs official websites creators"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
