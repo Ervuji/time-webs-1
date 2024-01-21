@@ -1,0 +1,36 @@
+https://coolors.co/palettes/palettes
+
+
+
+const router = useRouter();
+
+    const onSubmit = async (data: Inputs) => {
+
+        const folderName = `${ortValue}`;
+        const stri = folderName.toLowerCase()
+        const orte = decodeURIComponent(`${stri}`);
+
+
+        setIsLoading(true);
+
+        if (`${orte}`) {
+            router.push(`/${orte.toLowerCase()}`, { params: { slug: `${orte}`} });
+        }
+    };
+
+
+newsapi key: "339d198c267644d5b3843bacdc2da3f1"
+
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=339d198c267644d5b3843bacdc2da3f1
+
+
+custom Search Json API Google:  
+
+Key: AIzaSyDIicn-ogdeekpmRpJLOfQ_-FTq82Z44ao 
+
+
+&nbsp;
+
+https://nicepage.com/st/5711851/we-help-our-clients-achieve-immediate-impact-website-template
+
+per singolo: https://nicepage.com/st/494050/conceptual-design-website-template
