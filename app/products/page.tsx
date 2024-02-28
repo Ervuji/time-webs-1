@@ -12,7 +12,7 @@ const page = () => {
           I Nostri Prodotti
         </div>
       </div>
-      <div className="w-[80%] flex justify-center mt-16 flex-wrap gap-20 max-[970px]:space-y-10 mb-14">
+      <div className="w-[70%] flex justify-center mt-16 flex-wrap gap-20 max-[970px]:space-y-10 mb-14">
         <ShoppingCard
           imgName="3dShapes"
           title="Begginer Website"

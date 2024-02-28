@@ -21,7 +21,7 @@ export default function Team() {
                 className="flex w-[100%] h-[25vh] object-cover rounded-xl"
               />
               <div className="w-full flex justify-start text-3xl font-bold text-[#1bd4f8]">
-                Vulnet
+                Anthony
               </div>
               <div className="w-full flex justify-start text-2xl font-bold text-gray-400">
                 Programming Guru

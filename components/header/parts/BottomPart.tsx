@@ -13,18 +13,25 @@ export default function BottomPart({ home, products }: HeaderProps) {
 
   return (
     <div className="flex justify-end flex-nowrap w-auto items-center">
-      <div className="flex justify-end gap-5 w-[100%] flex-nowrap max-[410px]:hidden">
+      <div className="flex justify-end gap-5 w-[100%] flex-nowrap max-[425px]:hidden">
         <div className={`hover:text-blue-600 ${home} font-semibold`}>
           <Link href="/">Home</Link>
         </div>
         <div className={`hover:text-blue-600 text-gray-600 font-semibold`}>
-          <Link href="/#aboutus">Chi siamo</Link>
+          <Link href="/#aboutus" className="min-w-[80px] flex">
+            Chi siamo
+          </Link>
         </div>
         <div className={`hover:text-blue-600 ${products} font-semibold`}>
           <Link href="/products">Prodotti</Link>
         </div>
         <div className={`hover:text-blue-600 text-gray-600 font-semibold`}>
           <Link href="/#contactus">Contattateci</Link>
+        </div>
+      </div>
+      <div className="hidden justify-end gap-5 w-[100%] flex-nowrap max-[425px]:flex">
+        <div className="hover:text-blue-600 pl-5">
+          <FaBarsStaggered size={23} />
         </div>
       </div>
     </div>

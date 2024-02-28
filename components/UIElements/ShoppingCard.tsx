@@ -12,9 +12,9 @@ const ShoppingCard = ({
   return (
     <Link
       href={`${buttonHref}`}
-      className="w-[300px] max-[600px]:w-full min-h-[300px] h-auto bg-white rounded-lg flex-wrap transition duration-500 hover:scale-105"
+      className="w-[300px] max-[300px]:w-full min-h-[300px] h-auto bg-white rounded-lg flex-wrap transition duration-500 hover:scale-105"
     >
-      <div className="w-full h-[230px] flex bg-slate-400 rounded-lg">
+      <div className="w-full h-[230px] flex rounded-lg">
         <Image
           src={`/${imgName}.jpg`}
           alt=""
