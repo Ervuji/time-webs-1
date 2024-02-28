@@ -1,3 +1,4 @@
+import MainButton from "@/components/UIElements/MainButton";
 import Link from "next/link";
 
 export default function ExtraPartTwo() {
@@ -30,12 +31,7 @@ export default function ExtraPartTwo() {
             duo dolores et ea rebum.
           </div>
           <div className="w-full flex justify-start">
-            <Link
-              href={"#"}
-              className="w-auto flex justify-start bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6] items-center h-[50px] hover:to-[#94fbff] hover:from-[#b692ff] text-white font-bold p-5 mt-5 rounded-full"
-            >
-              SCOPRI DI PIÙ
-            </Link>
+            <MainButton href="" addedStyles="" description="SCOPRI DI PIÙ" />
           </div>
         </div>
         <div className="w-[50%] flex justify-center max-[1400px]:hidden">

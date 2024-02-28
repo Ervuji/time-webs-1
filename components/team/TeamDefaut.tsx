@@ -7,9 +7,6 @@ export default function Projects() {
       <div className="w-full flex justify-center p-32 max-[600px]:px-5">
         <ExtraPartTwo />
       </div>
-      <div className="w-full flex justify-center p-24 max-[600px]:px-5">
-        <Team />
-      </div>
     </div>
   );
 }

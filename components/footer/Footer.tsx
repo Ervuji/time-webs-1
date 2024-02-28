@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="w-full min-h-[250px] h-auto flex justify-center items-center bg-gradient-to-r from-[#ccfcff] to-[#b2c4ff]">
+    <div className="w-full min-h-[250px] h-auto flex justify-center items-center bg-white">
       <div className="w-[70%] flex justify-center items-center space-x-5 max-[660px]:space-x-0 p-5 flex-nowrap max-[1650px]:w-full max-[1650px]:flex-wrap max-[640px]:space-y-10">
         <div className="w-[300px] max-[600px]:w-full max-h-[250px] h-[176px] flex justify-center text-center p-5 flex-wrap rounded-3xl bg-gradient-to-b from-[#95faff] to-[#415dff]">
           <div className="w-full text-2xl font-bold text-white my-5">

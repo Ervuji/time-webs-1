@@ -22,9 +22,6 @@ export default function BottomPart() {
         <div className="hover:text-blue-600">
           <FaTwitter size={20} />
         </div>
-        <div className="hover:text-blue-600 pl-5">
-          <FaBarsStaggered size={23} />
-        </div>
       </div>
     </div>
   );

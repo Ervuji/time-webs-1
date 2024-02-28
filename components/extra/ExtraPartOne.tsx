@@ -6,6 +6,7 @@ import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 import { GoDot } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
+import MainButton from "../UIElements/MainButton";
 
 export default function ExtraPartOne() {
   const [isVisible, setIsVisible] = useState(true);
@@ -46,12 +47,7 @@ export default function ExtraPartOne() {
               dolores et ea rebum.
             </div>
             <div className="w-full flex justify-center">
-              <Link
-                href={"#"}
-                className="w-auto flex justify-start bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6] items-center h-[50px] hover:to-[#94fbff] hover:from-[#b692ff] text-white font-bold p-5 mt-5 rounded-full"
-              >
-                SCOPRI DI PIÙ
-              </Link>
+              <MainButton href="" addedStyles="" description="SCOPRI DI PIÙ" />
             </div>
             <div className="w-full flex justify-center">
               <GoDotFill color={"#1db4f8"} />
@@ -82,12 +78,7 @@ export default function ExtraPartOne() {
               vero eos et a
             </div>
             <div className="w-full flex justify-center">
-              <Link
-                href={"#"}
-                className="w-auto flex justify-start bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6] items-center h-[50px] hover:to-[#94fbff] hover:from-[#b692ff] text-white font-bold p-5 mt-5 rounded-full"
-              >
-                SCOPRI DI PIÙ
-              </Link>
+              <MainButton href="" addedStyles="" description="SCOPRI DI PIÙ" />
             </div>
             <div className="w-full flex justify-center">
               <GoDot />

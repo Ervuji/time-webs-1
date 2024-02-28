@@ -15,11 +15,11 @@ export default function Home() {
     <main className="flex flex-wrap justify-center w-full p-0 bg-[#ffffff]">
       <Header />
       <Center />
+      <Clients />
       <Projects />
       <ExtraPartOne />
       <TeamDefault />
       <Abilities />
-      <Clients />
       <Infos />
       <Footer />
     </main>
