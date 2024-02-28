@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default function Clients() {
   return (
-    <div className="w-[75%] max-[1620px]:w-[100%] flex justify-center flex-wrap bg-white p-24 max-[600px]:px-5">
+    <div
+      className="w-[75%] max-[1620px]:w-[100%] flex justify-center flex-wrap bg-white p-24 max-[600px]:px-5"
+      id="aboutus"
+    >
       <div className="w-[35%] max-[1620px]:w-[100%] flex justify-center flex-wrap mt-16">
         <div className="w-full max-[700px]:w-[100%] flex justify-left text-4xl mb-5 max-[400px]:text-3xl text-center font-bold text-[#1db3f4]">
           Chi siamo

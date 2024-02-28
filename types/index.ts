@@ -10,3 +10,8 @@ export interface ProductsCardProps {
   description?: string;
   buttonHref?: string;
 }
+
+export interface HeaderProps {
+  home: string;
+  products: string;
+}

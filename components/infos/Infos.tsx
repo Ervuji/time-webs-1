@@ -63,7 +63,10 @@ export default function Infos() {
   };
 
   return (
-    <div className="w-[75%] max-[1620px]:w-[100%] flex justify-center flex-wrap mb-16 mt-12">
+    <div
+      className="w-[75%] max-[1620px]:w-[100%] flex justify-center flex-wrap mb-16 mt-12"
+      id="contactus"
+    >
       <div className="w-full flex justify-center p-10">
         <div className="w-[100%] max-[700px]:w-[100%] flex justify-center text-6xl mb-5 max-[400px]:text-3xl text-center font-bold text-[#1db3f4]">
           Contattateci per maggiori informazioni
